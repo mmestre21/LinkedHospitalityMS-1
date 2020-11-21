@@ -9,6 +9,7 @@ This website is B2B, and the target audience is Hospitality companies and Hospit
 
 ## UX
 
+### Strategy
 
 **Business goals of the website:**
 
@@ -52,6 +53,18 @@ This website is B2B, and the target audience is Hospitality companies and Hospit
 * I want to check out their social media channels to see how they promote the events and the subscription; this will allow me to evaluate if I should showcase with them.
 * I want to find a place where I can submit my details and find out more about the plans.
 
+### Scope
+
+**Features**
+
+**Fetures left to implement**
+
+### Structure
+
+The site is a single-apge website .
+
+### Skeleton
+
 **Wireframe mockups:** 
 
 * Home
@@ -60,11 +73,18 @@ This website is B2B, and the target audience is Hospitality companies and Hospit
 * Events 
 * Contact 
 
-## Features
-
-
 
 ## Technologies Used
+
+* **HTML5**, **CSS3** programming lenguages.  
+* [GitPod](https://www.gitpod.io/) is used as the development enviroment to the website.
+* [GitHub](https://github.com/)
+* [Bootstrap v 4.5.3](https://getbootstrap.com/) 
+* [Balsamiq](https://balsamiq.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)
+
 
 ## Testing
 
