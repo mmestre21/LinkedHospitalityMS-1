@@ -1,45 +1,47 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# LinkedHospitality
 
-Welcome mmestre21,
+LinkedHospitality is a club created for Hospitality companies in the UK to subscribe and participate in quarterly events; those events allow users to showcase their products, find new clients and suppliers as well as network with professionals in the industry and share innovations and best practices. 
+The website for LinkedHospitality offers information about the club, featuring a home page with a few pictures showing past events followed by a section about the site, current members, events for the upcoming year and a contact section to get more information about joining in.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The goal of the website is to provide information about LinkedHospitality club with a layout and design that will facilitate the navigation to obtain the information required by the user that validates the company's reliability and trustworthiness leading the user to submit their contact details. 
 
-## Gitpod Reminders
+This website is B2B, and the target audience is Hospitality companies and Hospitality suppliers, the prominent users are general managers, Operation managers, sales managers and purchasing managers from those companies.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# UX
 
-`python3 -m http.server`
+The purpose of this project is to create a website that 
 
-A blue button should appear to click: *Make Public*,
+**Business goals of the website:**
 
-Another blue button should appear to click: *Open Browser*.
+* To increase memberships by showcasing future events that encourage users to participate.
+* To inform users about the current suppliers and hospitality companies that have successfully joined the club. 
+* To create media presence and brand recognition.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Customers goals of the website:**
 
-A blue button should appear to click: *Make Public*,
+* To find information about the club and how beneficial it will be for them to join.
+* To validate their choice by seeing what the companies are part of the club.
+* To research the company's reputation by looking at social media channels linked to the page.
+* To find evidence of past events that will reinforce credibility on the purpose of the club. 
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Ideal users:**
 
-## Updates Since The Instructional Video
+* Hotel Managers/Restaurant managers/corporate hospitality managers/catering managers/ purchasing managers.
+* Food & beverage suppliers/furniture suppliers/venue suppliers/flower suppliers/linen suppliers/Property management systems suppliers. 
+* New hospitality solutions.  
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Technologies Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Deployment 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Credits 
 
---------
-
-Happy coding!
