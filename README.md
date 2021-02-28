@@ -28,7 +28,7 @@ This website is B2B, and the target audience is Hospitality operators, suppliers
 
 **Ideal users:**
 
-* _Group one_: Operators: CEOs of Small companies/ Ho-tel Managers/Restaurant managers/corporate hospitality managers/catering managers/ purchasing managers.
+* _Group one_: Operators: CEOs of Small companies/ Hotel Managers/Restaurant managers/corporate hospitality managers/catering managers/ purchasing managers.
 * _Group two_: Suppliers: Food & beverage suppliers/furniture suppliers/venue suppliers/flower suppliers/linen suppliers/Property management systems suppliers.
 * _Group three_:  Educational Institutions that offer courses related to Hospitality.
   
@@ -66,7 +66,7 @@ To achieve strategic goals, I have decided to include the following features:
 
 * **Header** that contains the company logo and the navigation bar.
 * **Carousel** using pictures related to the Hospitality industry.
-* **About us** section that provides knowledge about the company, this has pic-tures of three key directors of the company with a quote and image. It also has information about Who we are, what we do, and How we do it.
+* **About us** section that provides knowledge about the company, this has pictures of three key directors of the company with a quote and image. It also has information about Who we are, what we do, and How we do it.
 * **Our Members** Shows a small group of members telling about their experience using LinkedHospitality and a series of pictures showcasing the logos of all the members.
 * **Our Events** displays information about the events, dates and venues.
 * **Get Linked** a contact form with the space to submit personal details, name, email, contact number, company and a drop-down button to choose the type of company.
@@ -83,7 +83,7 @@ I  have created the user flow strategically to encourage the user to keep scroll
 
 **Wireframe** 
 
-* 
+* [Wireframes](assets/wireframes/LinkedHospitalitywireframes.pdf)
 ***
 
 ## Features
@@ -161,26 +161,14 @@ I  have created the user flow strategically to encourage the user to keep scroll
 * Logo 2 [UNWTO](https://www.unwto.org/content/commitment-signatory-savoy-hotel-and-resorts)
 * Logo 3 [Fontmeme](https://fontmeme.com/nisbets-logo-font/)
 * Logo 4 [Logolynx](https://www.logolynx.com/topic/perrier)
-* Logo 5 []()
-* Logo 6 []()
-* Logo 7 []()
-* Logo 8 []()
-* Logo 9 []()
-* Logo 10 []()
-* Logo 11 []()
-* Logo 12 []()
-* Logo 13 []()
-* Logo 14 []()
-* Logo 15 []()
-* Logo 16 []()
-* Logo 17 []()
-* Logo 18 []()
-* Logo 19 []() 
-* Logo 20 []()
+* Logo 5 [Acegb](https://acegb.org/images/logos/jascots2.jpg)
+* Logo 6 [Pngfuel.com](https://f0.pngfuel.com/png/494/904/gaucho-text-png-clip-art.png)
+
+
 
  ## Content
 
-All text content is self-written.
+All text content is self-written for educational porpuses only.
 
 ## Code
 
