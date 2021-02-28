@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
+/*------------------------------------------------- NavBar*/
+
+body {
+    position: relative;
+}
+.navbar { 
+    background-color:#561F37;
+}
+.btn-outline-warning {
+    color: #f29559;
+    border: 1px solid #f29559;
+    background-color: #561F37;
+}
+.btn-outline-warning:hover {
+    color: #fff;
+    border-color: #fff;
+    background-color: #f29559;
+}
+
+/*------------------------------------------------- */
