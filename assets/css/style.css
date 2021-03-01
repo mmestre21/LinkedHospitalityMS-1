@@ -1,9 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
-/*------------------------------------------------- NavBar*/
-
+/*------------------------------------------------- Body*/
 body {
     position: relative;
 }
+#aboutus {
+    padding-top: 60px;
+    height: 900px;
+    color: #fff;
+    background-color: #77cbb9;
+}
+  #ourmembers {
+    padding-top: 60px;
+    height: 900px;
+    color: #A9A9A9;
+    background-color: #fff;
+}
+#ourevents {
+    padding-top: 60px;
+    height: 1000px;
+    color: #fff;
+    background-color: #561F37;
+}
+#contactus {
+    padding-top: 60px;
+    height: 900px;
+    color: #A9A9A9;
+    background-color: #fff;
+}
+/*------------------------------------------------------- */
+/*------------------------------------------------- NavBar*/
 .navbar { 
     background-color:#561F37;
 }
