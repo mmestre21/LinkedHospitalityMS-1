@@ -10,24 +10,23 @@
 </head>
 <body data-spy="scroll" data-target="#linkedhnavbar" data-offset="0">
     <header>
-<!-----------------------------Navbar------------------------------------------------------------------------------>
-     <nav id= "linkedhnavbar" class="navbar sticky-top navbar-expand-lg navbar-dark">
+<!-----------------------------Navbar--------------------------------------->
+     <nav id="linkedhnavbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">
-          <img src="assets/images/logo/linkedhosptalityPNG.png" height="50" alt="logo-linkedHospitality">
+          <img src="assets/images/logo/linkedhosptalityPNG.png" id="logoimg" height="30" alt="logo-linkedHospitality">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse text-right" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#home"><span class="sr-only">(current)</span> </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutus">About us </a>
+              <a class="nav-link" href="#aboutus" data-toggle="collapse" data-target=" .nav-collapse"> About us </a>
             </li>
             <li class="nav-item">
-
               <a class="nav-link" href="#ourmembers">Our Members</a>
             </li>
               <li class="nav-item">
@@ -40,9 +39,9 @@
         </div>
      </nav>
     </header>
-<!-----------------------------/Navbar------------------------------------------------------------------------------>
+<!-----------------------------/Navbar--------------------------------------------->
 
-<!-----------------------------Carousel----------------------------------------------------------------------------->
+<!-----------------------------Carousel-------------------------------------------->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -76,51 +75,87 @@
         </a>
         </div>
     </div>
-<!-----------------------------/Carousel-----------------------------------------------------------------------------> 
+<!-----------------------------/Carousel--------------------------------------> 
 
-<!-----------------------------About us------------------------------------------------------------------------------>
+<!-----------------------------About us--------------------------------------->
     <section>
         <div id="aboutus">
-            <h1>About Us</h1>
+            <h5 class="titleslh">About us</h5>
 
         </div>
 
     </section>
-<!-----------------------------/About us------------------------------------------------------------------------------>
+<!-----------------------------/About us------------------------------------->
 
-<!----------------------------Our Members------------------------------------------------------------------------------>
+<!----------------------------Our Members------------------------------------>
     <section>
         <div id="ourmembers">
-            <h1>Our Members</h1>
+            <h5 class="titleslh">Our Members</h5>
 
         </div>
     </section>
-<!----------------------------/Our Members------------------------------------------------------------------------------>
+<!----------------------------/Our Members----------------------------------->
 
-<!----------------------------Our Events-------------------------------------------------------------------------------->
+<!----------------------------Our Events------------------------------------->
     <section>
         <div id="ourevents">
-            <h1>Our Events</h1>
+            <h5 class="titleslh">Our Events</h5>
 
         </div>
     </section>
-<!----------------------------/Our Events-------------------------------------------------------------------------------->
+<!----------------------------/Our Events---------------------------------->
 
-<!----------------------------Contct us---------------------------------------------------------------------------------->
+<!----------------------------Contact us----------------------------------->
     <section>
         <div id="contactus">
-            <h1>Contact Us</h1>
+            <h5 class="titleslh"> Contact us</h5>
 
         </div>
     </section>
-
-<!----------------------------/Contct us---------------------------------------------------------------------------------->
+<!----------------------------/Contact us--------------------------------->
  
-
-    <footer>
-
+<!----------------------------Footer-------------------------------------->
+  <footer class="footerlh">
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+            <p id="copyrightlh">Copyright © 2021 M Mestre</p>
+          </div>
+      <div class="col" id="iconslh">
+        <ul class="list-inline">
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/" class="icon" target="_blank">
+                  <i class="fa fa-facebook-official " aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://twitter.com/?lang=en-gb" class="icon" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">twitter</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.linkedin.com/home" class="icon" target="_blank">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <span class="sr-only">linkedin</span>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/" class="icon" target="_blank">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                 </a>
+            </li>
+        </ul>
+       </div>
+    </div>
+  </div>
     </footer>
-    
+<!----------------------------/Footer---------------------------------------->
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+</script>   
 </body>
 </html>

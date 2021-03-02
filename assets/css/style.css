@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
+
 /*------------------------------------------------- Body*/
 body {
     position: relative;
@@ -6,41 +7,118 @@ body {
 #aboutus {
     padding-top: 60px;
     height: 900px;
-    color: #fff;
+    color: #fafafa;
     background-color: #77cbb9;
 }
   #ourmembers {
     padding-top: 60px;
     height: 900px;
     color: #A9A9A9;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 #ourevents {
     padding-top: 60px;
     height: 1000px;
-    color: #fff;
+    color: #fafafa;
     background-color: #561F37;
 }
 #contactus {
     padding-top: 60px;
-    height: 900px;
+    height: 700px;
     color: #A9A9A9;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 /*------------------------------------------------------- */
 /*------------------------------------------------- NavBar*/
 .navbar { 
     background-color:#561F37;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.btn {
+    margin: 8px;
+    margin-right: 20px;
+}
+.nav-link {
+    margin: 8px;
+}
+#logoimg{
+    margin: 8px;
 }
 .btn-outline-warning {
     color: #f29559;
     border: 1px solid #f29559;
     background-color: #561F37;
+    size: 20px;
 }
 .btn-outline-warning:hover {
-    color: #fff;
-    border-color: #fff;
+    color: #fafafa;
+    border-color: #fafafa;
     background-color: #f29559;
 }
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+}
+.navbar-toggler{
+    padding: 4px;
+    margin: 0;
+    line-height: 0.5;
+    margin-right: 6px;
+} 
 
-/*------------------------------------------------- */
+/*------------------------------------------------- --------*/
+
+/*------------------------------------------------- text----*/
+.titleslh {
+    padding: 15px;
+    font-style: italic;
+    margin-left: 2px;
+}
+@media only screen and (max-width: 600px) {
+.titleslh {
+    padding: 5px;
+    margin-left: 12px;
+    font-size: small;
+}
+}
+
+/*------------------------------------------------- /text----*/
+
+/*--------------------------------------------------Footer----*/
+.footerlh {
+    padding: 4px;
+    color: #fafafa;
+    font-size: small;
+    background-color: #561F37;
+    min-height: 40px;
+}
+#copyrightlh {
+    padding: 8px;
+    margin: 0;
+    margin-top: 6px;
+    margin-left: 6px;
+    font-size: smaller;
+    position: relative;
+    right: 20px;
+}
+#iconslh {
+    font-size: medium;
+    text-align: right;
+    padding: 5px;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+.icon {
+    padding: 4px;
+    color: #f29559;
+    transition: all 0.35s ease-in-out;
+   -moz-transition: all 0.35s ease-in-out;
+   -webkit-transition: all 0.35s ease-in-out;
+   -o-transition:all 0.35s ease-in-out;
+}
+.icon:hover {
+    color: #fafafa;
+}
+/*--------------------------------------------------/Footer----*/
