@@ -6,11 +6,13 @@ body {
 }
 #aboutus {
     padding-top: 60px;
-    height: 900px;
-    color: #fafafa;
+    height: 700px;
+    color: rgb(109, 107, 107);
     background-color: #77cbb9;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-  #ourmembers {
+#ourmembers {
     padding-top: 60px;
     height: 900px;
     color: #A9A9A9;
@@ -22,14 +24,19 @@ body {
     color: #fafafa;
     background-color: #561F37;
 }
-#contactus {
+#getlinked {
     padding-top: 60px;
-    height: 700px;
+    height: 600px;
     color: #A9A9A9;
     background-color: #fafafa;
 }
 /*------------------------------------------------------- */
 /*------------------------------------------------- NavBar*/
+ 
+/*#navbarNav {
+    background-color: rgb(86,31,55,0.2)!important;
+}*/
+
 .navbar { 
     background-color:#561F37;
     margin-top: 0;
@@ -39,10 +46,12 @@ body {
 .btn {
     margin: 8px;
     margin-right: 20px;
+
 }
 .nav-link {
     margin: 8px;
 }
+
 #logoimg{
     margin: 8px;
 }
@@ -66,17 +75,23 @@ body {
     margin: 0;
     line-height: 0.5;
     margin-right: 6px;
+    position: relative;
+    right: 10px;
 } 
+.nav-link {
+    margin-right: 20px;
+}
 
 /*------------------------------------------------- --------*/
 
 /*------------------------------------------------- text----*/
+
 .titleslh {
     padding: 15px;
-    font-style: italic;
     margin-left: 2px;
+    font-style: italic;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 .titleslh {
     padding: 5px;
     margin-left: 12px;
@@ -122,3 +137,59 @@ body {
     color: #fafafa;
 }
 /*--------------------------------------------------/Footer----*/
+/*---------------------------------------------------/About us--*/
+.aboutusrow {
+margin-top: 30px;
+width: fit-content;
+}
+.containeraboutus {
+    margin-left: 10px;
+}
+.AboutUspic {
+    max-width: 100%;
+    height: auto;
+}
+.quotes {
+    font-size: small;
+    font-style: italic;
+    width: 15vw;
+    height: 20vh;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+@media only screen and (max-width: 600px)
+{
+.quotes {
+    font-size: smaller;
+    width: 40vw;
+    height: 20vh;
+    padding-top: 40px;
+}
+}
+.Aboutext {
+    width: 20vw;
+    height: 40vh;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    left: 60px;
+}
+@media only screen and (max-width: 600px){
+.Aboutext {
+    width: 50vw;
+    height: 100vh;
+}
+}
+.title2 {
+    position: relative;
+    left: 150px;
+    font-style: italic;
+}
+.icon2 {
+    color: #f29559;
+    font-size: large;
+    padding-top: 30px;
+    position: relative;
+    top: 20px;
+    left: 105px;
+}

@@ -111,6 +111,8 @@ I  have created the user flow strategically to encourage the user to keep scroll
 
 ## Resources 
 * CodeInstitude 
+* Bootstrap Documentation
+* W3Schools
 * Yourtube 
 
 ****
@@ -120,7 +122,7 @@ I  have created the user flow strategically to encourage the user to keep scroll
 
 ## Project barriers and solutions
 
-****
+****navbar collapsing is not bancing back after clicking to an option.
 
 ## Version control 
 
