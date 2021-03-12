@@ -1,34 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
 
+* {
+margin: 0;
+}
+
 /*------------------------------------------------- Body*/
 body {
     position: relative;
 }
 #aboutus {
     padding-top: 60px;
-    height: 700px;
-    color: rgb(109, 107, 107);
+    height: auto;
     background-color: #77cbb9;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: rgb(74 74 74);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 7%;
 }
 #ourmembers {
     padding-top: 60px;
-    height: 900px;
+    height: auto;
     color: #A9A9A9;
-    background-color: #fafafa;
+    background-color: #f5f5f5;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 7%;
 }
 #ourevents {
     padding-top: 60px;
-    height: 1000px;
-    color: #fafafa;
+    height: auto;
+    color: #f5f5f5;
     background-color: #561F37;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 7%;
 }
 #getlinked {
     padding-top: 60px;
-    height: 600px;
+    height: auto;
     color: #A9A9A9;
     background-color: #fafafa;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 7%;
 }
 /*------------------------------------------------------- */
 /*------------------------------------------------- NavBar*/
@@ -63,7 +77,7 @@ body {
 }
 .btn-outline-warning:hover {
     color: #fafafa;
-    border-color: #fafafa;
+    border-color: #f5f5f5;
     background-color: #f29559;
 }
 .navbar-toggler-icon {
@@ -104,7 +118,7 @@ body {
 /*--------------------------------------------------Footer----*/
 .footerlh {
     padding: 4px;
-    color: #fafafa;
+    color: #f5f5f5;
     font-size: small;
     background-color: #561F37;
     min-height: 40px;
@@ -134,62 +148,124 @@ body {
    -o-transition:all 0.35s ease-in-out;
 }
 .icon:hover {
-    color: #fafafa;
+    color: #f5f5f5;
 }
 /*--------------------------------------------------/Footer----*/
 /*---------------------------------------------------/About us--*/
-.aboutusrow {
-margin-top: 30px;
-width: fit-content;
-}
-.containeraboutus {
-    margin-left: 10px;
-}
-.AboutUspic {
-    max-width: 100%;
+
+img.AboutUspic {
+    width: 100%;
     height: auto;
+    border: 1px solid #561F37;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 5px 5px 5px grey;
+    margin: 15px;
+    padding: 0
+}
+@media only screen and (max-width: 768px)
+{
+    img.AboutUspic {
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 20%;
+    left: 20%;
+    }
+}
+@media only screen and (max-width: 600px)
+ {
+    img.AboutUspic {
+    width: 80%;
+    margin-top: 25px;
+    position: relative;
+    top: 0%;
+    }
 }
 .quotes {
     font-size: small;
     font-style: italic;
-    width: 15vw;
-    height: 20vh;
+    width: 100%;
+    height: 100%;
     padding-top: 25px;
-    margin-left: 25px;
+}
+@media only screen and (max-width: 768px)
+{
+    .quotes {
+    font-size: small;
+    font-style: italic;
+    position: relative;
+    top: 25%;
+
+    }
 }
 @media only screen and (max-width: 600px)
 {
 .quotes {
-    font-size: smaller;
-    width: 40vw;
-    height: 20vh;
-    padding-top: 40px;
-}
-}
-.Aboutext {
-    width: 20vw;
-    height: 40vh;
-    text-align: center;
-    font-size: small;
+    font-size: x-small;
+    margin-left: 0;
     position: relative;
-    left: 60px;
+    top: 10%
 }
-@media only screen and (max-width: 600px){
+}
 .Aboutext {
-    width: 50vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: medium;
+    position: relative;
+    top: 20px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+.Aboutext {
+    font-size: smaller;
+    width: 100%;
+    height: auto;
 }
 }
 .title2 {
-    position: relative;
-    left: 150px;
     font-style: italic;
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+@media only screen and (max-width: 768px)
+{
+    .title2 {
+    position: relative;
+    left: 50%;
+    }
+}
+@media only screen and (max-width: 600px) 
+{
+    .title2 {
+    font-size: small;
+    position: relative;
+    left: 30%;
+}
 }
 .icon2 {
     color: #f29559;
     font-size: large;
     padding-top: 30px;
+    display: inline-block;
     position: relative;
-    top: 20px;
-    left: 105px;
+    left: 30%;
+}
+@media only screen and (max-width: 768px)
+{
+    .icon2 {
+    position: relative;
+    left: 40%;
+    }
+}
+@media only screen and (max-width: 600px) 
+{
+    .icon2 {
+    font-size: small;
+    position: relative;
+    left: 20%;
+}
 }
