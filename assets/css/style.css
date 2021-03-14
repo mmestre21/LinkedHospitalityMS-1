@@ -6,7 +6,7 @@ margin: 0;
 
 /*------------------------------------------------- Body*/
 body {
-    position: relative;
+    width: 100%
 }
 #aboutus {
     padding-top: 60px;
@@ -20,7 +20,7 @@ body {
 #ourmembers {
     padding-top: 60px;
     height: auto;
-    color: #A9A9A9;
+    color: rgb(74 74 74);
     background-color: #f5f5f5;
     padding-left: 1%;
     padding-right: 1%;
@@ -53,9 +53,7 @@ body {
 
 .navbar { 
     background-color:#561F37;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
+    padding: 2px;
 }
 .btn {
     margin: 8px;
@@ -152,16 +150,17 @@ body {
 }
 /*--------------------------------------------------/Footer----*/
 /*---------------------------------------------------/About us--*/
-
+.myrow {
+    height: 20vh;
+}
 img.AboutUspic {
     width: 100%;
     height: auto;
-    border: 1px solid #561F37;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 5px 5px 5px grey;
-    margin: 15px;
-    padding: 0
+
 }
+
 @media only screen and (max-width: 768px)
 {
     img.AboutUspic {
@@ -182,7 +181,7 @@ img.AboutUspic {
     }
 }
 .quotes {
-    font-size: small;
+    font-size: 12px;
     font-style: italic;
     width: 100%;
     height: 100%;
@@ -191,8 +190,6 @@ img.AboutUspic {
 @media only screen and (max-width: 768px)
 {
     .quotes {
-    font-size: small;
-    font-style: italic;
     position: relative;
     top: 25%;
 
@@ -208,40 +205,45 @@ img.AboutUspic {
 }
 }
 .Aboutext {
-    width: 100%;
-    height: auto;
     text-align: center;
-    font-size: medium;
+    font-size: 15px;
     position: relative;
     top: 20px;
 }
 
+@media only screen and (max-width: 768px)
+{
+.Aboutext {
+    font-size: 14px;
+}
+}
 @media only screen and (max-width: 600px) 
 {
 .Aboutext {
-    font-size: smaller;
-    width: 100%;
-    height: auto;
+    font-size: 12px;
 }
 }
+
 .title2 {
     font-style: italic;
+    font-size:22px;
     margin-bottom: 15px;
     display: inline-block;
     position: relative;
-    left: 40%;
+    left: 25%;
 }
 @media only screen and (max-width: 768px)
 {
     .title2 {
+    font-size:20px;
     position: relative;
-    left: 50%;
+    left: 43%;
     }
 }
 @media only screen and (max-width: 600px) 
 {
     .title2 {
-    font-size: small;
+    font-size: 16px;
     position: relative;
     left: 30%;
 }
@@ -252,7 +254,7 @@ img.AboutUspic {
     padding-top: 30px;
     display: inline-block;
     position: relative;
-    left: 30%;
+    left: 20%;
 }
 @media only screen and (max-width: 768px)
 {
@@ -266,6 +268,79 @@ img.AboutUspic {
     .icon2 {
     font-size: small;
     position: relative;
-    left: 20%;
+    left: 25%;
 }
+}
+/*---------------------------------------------------/About us--*/
+/*---------------------------------------------------Members--*/
+.Memberspic {
+    width: 70%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.icon3 {
+    color: #f29559;
+    font-size: small;
+    display: inline-block;
+    margin: 4px;
+}
+.quotes2 {
+    font-size: small;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+.quotes201 {
+    font-size: small;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: right;
+    display: block;
+    margin-left: auto
+}
+.Idcards {
+    font-size: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 13px;
+}
+
+img.logosLH {
+    width: 75px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:hover img.logosLH {
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+     box-shadow: 1px 1px 5px #999;
+
+}
+/*---------------------------------------------------/Members--*/
+/*---------------------------------------------------Events----*/
+.Eventspic {
+    width: 100%;
+    height: auto;
+}
+.myrows {
+    margin-top: 55px;
+    margin-bottom: 10px;
+}
+.icon4 {
+    color: #f29559;
+    font-size:x-large;
+    display: inline-block;
+    margin: 10px;
 }
