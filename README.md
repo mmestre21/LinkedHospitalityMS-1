@@ -87,20 +87,25 @@ I  have created the user flow strategically to encourage the user to keep scroll
 ***
 
 ## Features
-
+* Responsive on all devises sizes.
+* Interactive elements on the footer and on Our members section linking to social Media and the suppliers websites. 
 
 **Fetures left to implement**
 
-* Live calendar.
 
 ****
 ## Technologies Used
 
-* **HTML5**
-*  **CSS3**  
+**Languages used**
+
+* HTML5
+* CSS3 
+
+ **Frameworks, Libraries & Programes used**
+
 * [GitPod](https://www.gitpod.io/) is used as the development enviroment to the website.
 * [GitHub](https://github.com/)
-* [Bootstrap v 4.5.3](https://getbootstrap.com/) 
+* [Bootstrap v 4.5.3](https://getbootstrap.com/) To assist with the responsiveness of the website, Navbar, Scrollspy and Carousel. 
 * [Balsamiq](https://balsamiq.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
@@ -113,7 +118,8 @@ I  have created the user flow strategically to encourage the user to keep scroll
 * CodeInstitude 
 * Bootstrap Documentation
 * W3Schools
-* Yourtube 
+* Youtube 
+* Udemy
 
 ****
 ## Testing
@@ -122,13 +128,14 @@ I  have created the user flow strategically to encourage the user to keep scroll
 
 ## Project barriers and solutions
 
-****navbar collapsing is not bancing back after clicking to an option.
+* Navbar collapsing on mobile view is not bouncing back after clicking to an option.
 
 ## Version control 
 
 ****
 
 ## Deployment 
+
 * All code has been written in GitPod. 
 
 ****
@@ -167,16 +174,23 @@ I  have created the user flow strategically to encourage the user to keep scroll
 * Logo 6 [Pngfuel.com](https://f0.pngfuel.com/png/494/904/gaucho-text-png-clip-art.png)
 
 
-
  ## Content
 
 All text content is self-written for educational porpuses only.
 
 ## Code
+* Navbar, Scrollspy and Carousel where taken from Bootstrap documentation. 
 
 ## Acknowledgments
 
 I would like to thank:
+
+* My sister for creating the logo for me.
+
+* All the tutors for their support heling me understand the grid system and Anna Greaves for her video with explanation.
+
+* To Jim Lynx for his video about MS1 preparation, it helped me a lot.
+
 
 **Disclaimer**
 
