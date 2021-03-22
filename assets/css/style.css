@@ -6,7 +6,7 @@ margin: 0;
 
 /*------------------------------------------------- Body*/
 body {
-    width: 100%
+    width: 100%;
 }
 #aboutus {
     padding-top: 60px;
@@ -50,34 +50,41 @@ body {
 .navbar { 
     background-color:#561F37;
     padding: 2px;
+    height: 60px;
 }
+
+.navbar-collapse {
+   background-color:rgb(86, 31, 55,0.6);
+
+}
+
 .btn {
     margin: 8px;
     margin-right: 20px;
 
 }
-.nav-link {
-    margin: 8px;
-}
 
 #logoimg{
     margin: 8px;
 }
+
 .btn-outline-warning {
     color: #f29559;
     border: 1px solid #f29559;
     background-color: #561F37;
-    size: 20px;
 }
+
 .btn-outline-warning:hover {
     color: #fafafa;
     border-color: #f5f5f5;
     background-color: #f29559;
 }
+
 .navbar-toggler-icon {
     width: 20px;
     height: 20px;
 }
+
 .navbar-toggler{
     padding: 4px;
     margin: 0;
@@ -86,8 +93,15 @@ body {
     position: relative;
     right: 10px;
 } 
-.nav-link {
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f5f5f5;
+    margin: 8px;
     margin-right: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f29559;
 }
 
 /*------------------------------------------------- --------*/
@@ -333,7 +347,6 @@ img.AboutUspic {
     font-style: italic;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 60%;
 }
 
 @media only screen and (max-width: 768px)
@@ -348,7 +361,6 @@ img.AboutUspic {
     font-style: italic;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 60%;
     text-align: right;
     display: block;
     margin-left: auto
@@ -436,12 +448,18 @@ a:hover img.logosLH {
 /*---------------------------------------------------Contact Form--*/
 
 .contactformLH {
-    width: 70%;
+    width: 60%;
     border-radius: 5px;
     background-color: #77cbb9;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+@media only screen and (max-width: 768px)
+{
+.contactformLH {
+    width: 80%;
+    }
 }
 
 .inputLH {
