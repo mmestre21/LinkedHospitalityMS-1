@@ -7,558 +7,570 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
 
-* {
-margin: 0;
+/*------------------------------------------------- Body*/
+
+section {
+	padding-top: 60px;
+	height: auto;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 7%;
 }
 
-/*------------------------------------------------- Body*/
-body {
-    width: 100%;
-}
 #aboutus {
-    padding-top: 60px;
-    height: auto;
-    background-color: #77cbb9;
-    color: #403F40;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 7%;
+	background-color: #77cbb9;
+	color: #403F40;
 }
+
 #ourmembers {
-    padding-top: 60px;
-    height: auto;
-    color: #403F40;
-    background-color: #f5f5f5;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 7%;
+	color: #403F40;
+	background-color: #f5f5f5;
 }
+
 #ourevents {
-    padding-top: 60px;
-    height: auto;
-    color: #f5f5f5;
-    background-color: #561F37;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 7%;
+	color: #f5f5f5;
+	background-color: #561F37;
 }
+
 #getlinked {
-    padding-top: 60px;
-    height: auto;
-    color: #403F40;
-    background-color: #f5f5f5;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 7%;
+	color: #403F40;
+	background-color: #f5f5f5;
 }
+
 
 /*------------------------------------------------------- */
+
+
 /*------------------------------------------------- NavBar*/
-.navbar { 
-    background-color:#561F37;
-    padding: 2px;
-    height: 60px;
+
+.navbar {
+	background-color: #561F37;
+	padding: 2px;
+	height: 70px;
 }
 
 .navbar-collapse {
-   background-color:rgb(86, 31, 55,0.6);
-
+	background-color: rgb(86, 31, 55, 0.6);
 }
 
 .btn {
-    margin: 8px;
-    margin-right: 20px;
-
+	margin: 8px;
+	margin-right: 20px;
 }
 
-#logoimg{
-    margin: 8px;
+#logoimg {
+	margin: 8px;
 }
 
 .btn-outline-warning {
-    color: #f29559;
-    border: 1px solid #f29559;
-    background-color: #561F37;
+	color: #f29559;
+	border: 1px solid #f29559;
+	background-color: #561F37;
 }
 
 .btn-outline-warning:hover {
-    color: #fafafa;
-    border-color: #f5f5f5;
-    background-color: #f29559;
+	color: #fafafa;
+	border-color: #f5f5f5;
+	background-color: #f29559;
 }
 
 .navbar-toggler-icon {
-    width: 20px;
-    height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
-.navbar-toggler{
-    padding: 4px;
-    margin: 0;
-    line-height: 0.5;
-    margin-right: 6px;
-    position: relative;
-    right: 10px;
-} 
+.navbar-toggler {
+	padding: 4px;
+	margin: 0;
+	line-height: 0.5;
+	margin-right: 6px;
+	position: relative;
+	right: 10px;
+}
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #f5f5f5;
-    margin: 8px;
-    margin-right: 20px;
+	color: #f5f5f5;
+	margin: 8px;
+	margin-right: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #f29559;
+	color: #f29559;
 }
 
+
 /*------------------------------------------------- --------*/
+
 
 /*------------------------------------------------- text----*/
 
 .titleslh {
-    padding: 15px;
-    margin-left: 2px;
-    font-style: italic;
-    text-shadow: 2px 2px 8px #A9949c;
-    word-spacing: 2px;
+	padding: 15px;
+	margin-left: 2px;
+	font-style: italic;
+	text-shadow: 2px 2px 8px #A9949c;
+	word-spacing: 2px;
 }
-@media only screen and (width: 2560px)
-{
-    .titleslh {
-    font-size: 25px;
-    margin-left: 4px;
-    }
+
+@media only screen and (width: 2560px) {
+	.titleslh {
+		font-size: 25px;
+		margin-left: 4px;
+	}
 }
 
 @media (max-width: 600px) {
-.titleslh {
-    padding: 5px;
-    margin-left: 12px;
-    font-size: 15px;
+	.titleslh {
+		padding: 5px;
+		margin-left: 12px;
+		font-size: 15px;
+	}
 }
-}
+
 
 /*------------------------------------------------- /text----*/
 
+
 /*--------------------------------------------------Footer----*/
+
 .footerlh {
-    padding: 4px;
-    color: #f5f5f5;
-    font-size: small;
-    background-color: #561F37;
-    min-height: 40px;
+	padding: 4px;
+	color: #f5f5f5;
+	font-size: small;
+	background-color: #561F37;
+	min-height: 40px;
 }
+
 #copyrightlh {
-    padding: 8px;
-    margin: 0;
-    margin-top: 6px;
-    margin-left: 6px;
-    font-size: smaller;
-    position: relative;
-    right: 20px;
+	padding: 8px;
+	margin: 0;
+	margin-top: 6px;
+	margin-left: 6px;
+	font-size: smaller;
+	position: relative;
+	right: 20px;
 }
+
 #iconslh {
-    font-size: medium;
-    text-align: right;
-    padding: 5px;
-    margin-top: 6px;
-    margin-right: 5px;
+	font-size: medium;
+	text-align: right;
+	padding: 5px;
+	margin-top: 6px;
+	margin-right: 5px;
 }
+
 .icon {
-    padding: 4px;
-    color: #f29559;
-    transition: all 0.35s ease-in-out;
-   -moz-transition: all 0.35s ease-in-out;
-   -webkit-transition: all 0.35s ease-in-out;
-   -o-transition:all 0.35s ease-in-out;
+	padding: 4px;
+	color: #f29559;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
+
 .icon:hover {
-    color: #f5f5f5;
+	color: #f5f5f5;
 }
+
+
 /*--------------------------------------------------/Footer----*/
+
+
 /*---------------------------------------------------/About us--*/
-.myrow {
-    height: 20vh;
-}
-img.AboutUspic {
-    width: 100%;
-    height: auto;
-    border-radius: 50% 50% 50% 50%;
-    -webkit-box-shadow: 5px 5px 5px grey;
-            box-shadow: 5px 5px 5px grey;
 
+img.aboutuspic {
+	width: 100%;
+	height: auto;
+	border-radius: 50% 50% 50% 50%;
+	-webkit-box-shadow: 5px 5px 5px grey;
+	box-shadow: 5px 5px 5px grey;
 }
 
-@media only screen and (max-width: 768px)
-{
-    img.AboutUspic {
-    width: 65%;
-    height: auto;
-    position: relative;
-    top: 20%;
-    left: 20%;
-    }
+@media only screen and (max-width: 768px) {
+	img.aboutuspic {
+		width: 65%;
+		height: auto;
+		position: relative;
+		top: 20%;
+		left: 20%;
+	}
 }
-@media only screen and (max-width: 600px)
- {
-    img.AboutUspic {
-    width: 100%;
-    margin-top: 27px;
-    position: relative;
-    top: 0%;
-    }
+
+@media only screen and (max-width: 600px) {
+	img.aboutuspic {
+		width: 100%;
+		margin-top: 27px;
+		position: relative;
+		top: 0%;
+	}
 }
+
 .quotes {
-    font-size: 12px;
-    font-style: italic;
-    width: 100%;
-    height: 100%;
-    padding-top: 25px;
-    position: relative;
-    top: -9%;
-}
-@media only screen and (width: 2560px)
-{
-    .quotes {
-    font-size: 15px;
-    position: relative;
-    top: 15%;
-    }
-}
-@media only screen and (max-width: 768px)
-{
-    .quotes {
-    position: relative;
-    top: 25%;
-
-    }
-}
-@media only screen and (max-width: 600px)
-{
-.quotes {
-    font-size: x-small;
-    position: relative;
-    top: 10%
-}
-}
-.Aboutext {
-    text-align: center;
-    font-size: 15px;
-    position: relative;
-    top: 20px;
+	font-size: 12px;
+	font-style: italic;
+	width: 100%;
+	height: 100%;
+	padding-top: 25px;
+	position: relative;
+	top: -9%;
 }
 
-@media only screen and (max-width: 768px)
-{
-.Aboutext {
-    font-size: 14px;
+@media only screen and (width: 2560px) {
+	.quotes {
+		font-size: 15px;
+		position: relative;
+		top: 15%;
+	}
 }
+
+@media only screen and (max-width: 768px) {
+	.quotes {
+		position: relative;
+		top: 25%;
+	}
 }
-@media only screen and (max-width: 600px) 
-{
-.Aboutext {
-    font-size: 12px;
+
+@media only screen and (max-width: 600px) {
+	.quotes {
+		font-size: x-small;
+		position: relative;
+		top: 10%
+	}
 }
+
+.aboutext {
+	text-align: center;
+	font-size: 15px;
+	position: relative;
+	top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.aboutext {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.aboutext {
+		font-size: 12px;
+	}
 }
 
 .title2 {
-    font-style: italic;
-    font-size:22px;
-    margin-bottom: 15px;
-    display: inline-block;
-    position: relative;
-    left: 25%;
+	font-style: italic;
+	font-size: 22px;
+	margin-bottom: 15px;
+	display: inline-block;
+	position: relative;
+	left: 25%;
 }
-@media only screen and (width: 2560px)
-{
-    .title2 {
-    font-size: 25px;
-    position: relative;
-    left: 35%;
-    }
+
+@media only screen and (width: 2560px) {
+	.title2 {
+		font-size: 25px;
+		position: relative;
+		left: 35%;
+	}
 }
-@media only screen and (max-width: 768px)
-{
-    .title2 {
-    font-size:20px;
-    position: relative;
-    left: 43%;
-    }
+
+@media only screen and (max-width: 768px) {
+	.title2 {
+		font-size: 20px;
+		position: relative;
+		left: 43%;
+	}
 }
-@media only screen and (max-width: 600px) 
-{
-    .title2 {
-    font-size: 16px;
-    position: relative;
-    left: 30%;
+
+@media only screen and (max-width: 600px) {
+	.title2 {
+		font-size: 16px;
+		position: relative;
+		left: 30%;
+	}
 }
-}
+
 .icon2 {
-    color: #f29559;
-    font-size: large;
-    padding-top: 30px;
-    display: inline-block;
-    position: relative;
-    left: 20%;
+	color: #f29559;
+	font-size: large;
+	padding-top: 30px;
+	display: inline-block;
+	position: relative;
+	left: 20%;
 }
-@media only screen and (width: 2560px)
-{
-    .icon2 {
-    font-size: 25px;
-    position: relative;
-    left: 35%;
-    }
+
+@media only screen and (width: 2560px) {
+	.icon2 {
+		font-size: 25px;
+		position: relative;
+		left: 35%;
+	}
 }
-@media only screen and (max-width: 768px)
-{
-    .icon2 {
-    position: relative;
-    left: 40%;
-    }
+
+@media only screen and (max-width: 768px) {
+	.icon2 {
+		position: relative;
+		left: 40%;
+	}
 }
-@media only screen and (max-width: 600px) 
-{
-    .icon2 {
-    font-size: small;
-    position: relative;
-    left: 25%;
+
+@media only screen and (max-width: 600px) {
+	.icon2 {
+		font-size: small;
+		position: relative;
+		left: 25%;
+	}
 }
-}
+
+
 /*---------------------------------------------------/About us--*/
+
+
 /*---------------------------------------------------Members--*/
-.Memberspic {
-    width: 70%;
-    height: auto;
-    border-radius: 5% 5% 5% 5%;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+
+.memberspic {
+	width: 70%;
+	height: auto;
+	border-radius: 5% 5% 5% 5%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
 }
 
-@media only screen and (max-width: 768px) 
-{
-    .Memberspic {
-    width: 65%;
-    height: auto;
-    
+@media only screen and (max-width: 768px) {
+	.memberspic {
+		width: 65%;
+		height: auto;
+	}
 }
-}
+
 .icon3 {
-    color: #f29559;
-    font-size: medium;
-    display: inline-block;
-    margin: 4px;
-    transition: all 0.35s ease-in-out;
-   -moz-transition: all 0.35s ease-in-out;
-   -webkit-transition: all 0.35s ease-in-out;
-   -o-transition:all 0.35s ease-in-out;
-}
-.icon3:hover {
-    color: #561F37;
-}
-.quotes2 {
-    font-size: 15px;
-    font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	color: #f29559;
+	font-size: medium;
+	display: inline-block;
+	margin: 4px;
+	transition: all 0.35s ease-in-out;
+	-moz-transition: all 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
+	-o-transition: all 0.35s ease-in-out;
 }
 
-@media only screen and (max-width: 768px)
-{
-    .quotes2 {
-    font-size: 14px;
-    }
+.icon3:hover {
+	color: #561F37;
 }
-@media only screen and (max-width: 600px)
-{
-    .quotes2 {
-    font-size: 12px;
-    }
+
+.quotes2 {
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.quotes2 {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.quotes2 {
+		font-size: 12px;
+	}
 }
 
 .quotes201 {
-    font-size: 15px;
-    font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: right;
-    display: block;
-    margin-left: auto
-}
-@media only screen and (max-width: 768px)
-{
-    .quotes201 {
-    font-size: 14px;
-    }
-}
-@media only screen and (max-width: 600px)
-{
-    .quotes201 {
-    font-size: 12px;
-    }
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: right;
+	display: block;
+	margin-left: auto
 }
 
-.Idcards {
-    font-size: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 20px;
-}
-@media only screen and (max-width: 600px) 
-{
-    .Idcards {
-    font-size: 9px;
-}
+@media only screen and (max-width: 768px) {
+	.quotes201 {
+		font-size: 14px;
+	}
 }
 
-img.logosLH {
-    width: 95px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-filter: opacity(60%);
-            filter: opacity(60%);
-}
-@media only screen and (max-width: 600px) 
-{
-    img.logosLH {
-    width: 75px;
-    height: auto;
-}
+@media only screen and (max-width: 600px) {
+	.quotes201 {
+		font-size: 12px;
+	}
 }
 
-a:hover img.logosLH {
-     border: solid 1px #CCC;
-    -webkit-box-shadow: 1px 1px 5px #999;
-    box-shadow: 1px 1px 5px #999;
-
+.idcards {
+	font-size: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+	.idcards {
+		font-size: 9px;
+	}
+}
+
+img.logoslh {
+	width: 95px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-filter: opacity(60%);
+	filter: opacity(60%);
+}
+
+@media only screen and (max-width: 600px) {
+	img.logoslh {
+		width: 75px;
+		height: auto;
+	}
+}
+
+a:hover img.logoslh {
+	border: solid 1px #CCC;
+	-webkit-box-shadow: 1px 1px 5px #999;
+	box-shadow: 1px 1px 5px #999;
+}
+
 .logoscontainer {
-    margin-top: 25px;
+	margin-top: 25px;
 }
+
+
 /*---------------------------------------------------/Members--*/
 
+
 /*---------------------------------------------------Events----*/
-.Eventspic {
-    width: 100%;
-    height: auto;
-    border-radius: 3% 3% 3% 3%;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.eventspic {
+	width: 100%;
+	height: auto;
+	border-radius: 3% 3% 3% 3%;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .myrows {
-    margin-top: 55px;
-    margin-bottom: 10px;
+	margin-top: 55px;
+	margin-bottom: 10px;
 }
+
 .icon4 {
-    color: #f29559;
-    font-size:x-large;
-    display: inline-block;
-    margin: 10px;
+	color: #f29559;
+	font-size: x-large;
+	display: inline-block;
+	margin: 10px;
 }
-.Eventstext {
-    font-size: 15px;
+
+.eventstext {
+	font-size: 15px;
 }
-@media only screen and (max-width: 768px)
-{
-    .Eventstext {
-    font-size: 14px;
-    }
+
+@media only screen and (max-width: 768px) {
+	.eventstext {
+		font-size: 14px;
+	}
 }
 
 
 /*---------------------------------------------------/Events----*/
 
+
 /*---------------------------------------------------Contact Form--*/
 
-.contactformLH {
-    width: 60%;
-    border-radius: 5px;
-    background-color: #77cbb9;
-    padding: 20px;
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-@media only screen and (max-width: 768px)
-{
-.contactformLH {
-    width: 80%;
-    }
+.contactformlh {
+	width: 60%;
+	border-radius: 5px;
+	background-color: #77cbb9;
+	padding: 20px;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.inputLH {
-    width: 100%;
-    padding: 4px 16px;
-    margin: 3px 0;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+@media only screen and (max-width: 768px) {
+	.contactformlh {
+		width: 80%;
+	}
+}
+
+.inputlh {
+	width: 100%;
+	padding: 4px 16px;
+	margin: 3px 0;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 #contactp {
-    text-align: center;
-    padding: 0;
-    margin: 20px 30px 25px 30px;
-    font-size: 15px;
-}
-@media only screen and (max-width: 768px)
-{
-    #contactp {
-    font-size: 14px;
-    }
-}
-@media only screen and (max-width: 600px)
-{
-    #contactp {
-    font-size: 12px;
-    }
+	text-align: center;
+	padding: 0;
+	margin: 20px 30px 25px 30px;
+	font-size: 15px;
 }
 
-#submitLH {
-    background-color: #f29559;
-    color: white;
-    padding: 10px 15px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@media only screen and (max-width: 768px) {
+	#contactp {
+		font-size: 14px;
+	}
 }
+
+@media only screen and (max-width: 600px) {
+	#contactp {
+		font-size: 12px;
+	}
+}
+
+#submitlh {
+	background-color: #f29559;
+	color: white;
+	padding: 10px 15px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #radiotext {
-    margin: 5px;
-    display: inline;
+	margin: 5px;
+	display: inline;
 }
-#radioLH {
-    margin: 5px;
-    display: inline;
-} 
+
+#radiolh {
+	margin: 5px;
+	display: inline;
+}
+
 .radiodiv {
-    text-align: center;
+	text-align: center;
 }
 
 label {
-    font-size: 15px;
+	font-size: 15px;
 }
-@media only screen and (max-width: 768px)
-{
-    label {
-    font-size: 14px;
-    }
+
+@media only screen and (max-width: 768px) {
+	label {
+		font-size: 14px;
+	}
 }
-@media only screen and (max-width: 600px)
-{
-    label {
-    font-size: 12px;
-    }
+
+@media only screen and (max-width: 600px) {
+	label {
+		font-size: 12px;
+	}
 }

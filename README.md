@@ -4,7 +4,7 @@
 
 *LinkedHospitality* is a membership created for Hospitality Operators, suppliers and educational institutions in the UK.  Subscribing helps them to grow by staying connected with people in the industry by participating in their events.  The purpose of the events is to allow suppliers to showcase their products; Operators can find solutions for their business, share best practices and network with others in the industry; Educational institutions can offer their pieces of training. The membership allows all its users to gain new clients and make their product known.
 
-The goal of the website is to provide information about LinkedHospitality membership with a layout and design that will facilitate the navigation to obtain the information required by the user that validates the company's reliability and trustworthiness leading the user to submit their contact details. 
+The website aims to provide information about LinkedHospitality membership with a layout and design that will facilitate navigation to obtain the user's data that validates its reliability and trustworthiness, leading the user to submit their contact details. 
 
 This website is B2B, and the target audience is Hospitality operators, suppliers, educational institutions and new companies that want to get their product on the market.  The prominent users are general managers, Operation managers, Sales managers, Purchasing managers and  small companies CEOs.' 
 
@@ -19,7 +19,7 @@ This website is B2B, and the target audience is Hospitality operators, suppliers
 
 * To increase memberships by showcasing future events that encourage users to participate.
 * To inform users about the current suppliers and hospitality companies that have successfully joined. 
-* To enable users to submit their details when showing interest in the mebership. 
+* To enable users to submit their details when showing interest in the membership. 
 * To encourage suppliers and new technology solution companies to join the membership because they feel that members are the right target.   
 
 **Customers goals of the website:**
@@ -41,10 +41,10 @@ This website is B2B, and the target audience is Hospitality operators, suppliers
 1. _As a user Group one_:
 
 * I want to find out information about the company to determine if they have the expertise I am looking for.
-* I want to see what suppliers have subscribed so I can determine whether will be valuable for my company to join.
-* I want to find out what type of events the company organize so I can know if that aligns with what I want to achieve from the membership.
-* I want to find out the dates and location of their events to identify whether I will be able to attend and make the most of my subscription. 
-* I want to get in touch with the company to find out more about the mem-bership and evaluate if is worth joining. 
+* I want to see what suppliers have subscribed to evaluate whether it will be valuable for my company to join.
+* I want to find out what type of events the company organize to know if that aligns with what I want to achieve from the membership.
+* I want to find out the dates and location of their events to identify whether I will attend and make the most of my subscription. 
+* I want to get in touch with the company to find out more about the membership and evaluate if it is worth joining. 
 
 
 2. _As a User Group two_:
@@ -70,15 +70,15 @@ To achieve strategic goals, I have decided to include the following features:
 * **Header** that contains the company logo and the navigation bar.
 * **Carousel** using pictures related to the Hospitality industry.
 * **About us** section that provides knowledge about the company, this has pictures of three key directors of the company with a quote and image. It also has information about Who we are, what we do, and How we do it.
-* **Our Members** Shows a small group of members telling about their experience using LinkedHospitality and a series of pictures showcasing the logos of all the members.
+* **Our Members** Shows a small group of members telling about their experience using LinkedHospitality and a series of pictures showcasing all the members' logos.
 * **Our Events** displays information about the events, dates and venues.
 * **Get Linked** a contact form with the space to submit personal details, name, email, contact number, company and a drop-down button to choose the type of company.
-* **Footer** it contains links to social media, phone number and email.
+* **Footer** contains links to social media, phone number and email.
 
 
 ### **3. Structure**
 
-The structure idea is to reduce complexity and cognitive overload by creating a single-page website with a linear path that contains all the information and features required by the ideal users.  The navigation bar is located on the right and includes the links for all four sections of the page. The Logo is on the left and brings the user back to the bottom of the page; this is an Industry standard that maintains familiarity and makes it easy to navigate when accessed for the first time. All the elements are discoverable and have content hinting by partially revealing parts of the next area just above the fold to encourage the user to scroll down. 
+The structure idea is to reduce complexity and cognitive overload by creating a single-page website with a linear path containing all the information and features required by the ideal users.  The navigation bar is located on the right and includes the links for all four sections of the page. The logo is on the left and brings the user back to the bottom of the page; this is an Industry standard that maintains familiarity and makes it easy to navigate when accessed for the first time. All the elements are discoverable and have content hinting by partially revealing parts of the following area just above the fold to encourage them to scroll down. 
 I  have created the user flow strategically to encourage the user to keep scrolling down and unfolding information that will make them confident about the company and stimulate them to submit their details in the contact form. 
 
 
@@ -86,23 +86,25 @@ I  have created the user flow strategically to encourage the user to keep scroll
 
 **Wireframe** 
 
-* [**Wireframes**](assets/wireframes/LinkedHospitalitywireframes.pdf): I used Balsamiq to create a design with responsiveness on mobile and Ipad.  
+* [**Wireframes**](assets/wireframes/linkedhospitalitywireframes.pdf): I used Balsamiq to create a design with responsiveness on mobile and Ipad.  
 
 
 ## **Features**
 ***
-This is a fully responsive website on all devices. It contains a Homepage with a carousel with related pictures, a header with links to the sections of the page, four sections: About us, Our members, Our Events, and Get Linked and a footer with links to social media platforms. 
+*LinkedHospitality*  is a fully responsive website on all devices. It contains a Homepage with a carousel with related pictures, a header with links to the sections of the page, four sections: About us, Our members, Our Events, and Get Linked and a footer with links to social media platforms. 
 
 * [**Home Page**](): I have used Bootstrap Carousel to mate the page look more eye-catching with a series of pictures related to the Hospitality industry.
-* [**Header**](): The Header is a Navbar from Bootstrap that contains a Logo and links to the rest of the sections, the get Linked button is particularly highlighted to encourage the user to press and submit their contact details. 
-* [**About Us**](): in the About us section, I have added pictures of the directors of the company and below them information about "who we are", "What we do" and "How we do it" I have incorporated an icon from Font Awesome to each Title so it enhance the meaning and follows the initial design. I have used Bootstrap's grid system to make that section responsive. I have incorporated three `col` that have two `row` inside, `row` one: with one `col-4` for pictures and one `col-8` for Quotes, `row` two: has one `col-12` for the Title and text.
+* [**Header**](): The Header is a Navbar from Bootstrap containing a Logo and links to the rest of the sections. The get Linked button is particularly highlighted to encourage the user to press and submit their contact details. 
+* [**About Us**](): in the About us section, I have added pictures of the directors of the company and below them information about "who we are", "What we do" and "How we do it" I have incorporated an icon from Font Awesome to each Title, so it enhances the meaning and follows the initial design. I have used Bootstrap's grid system to make that section responsive. I have incorporated three `col` that have two `row` inside, `row` one: with one `col-4` for pictures and one `col-8` for Quotes, `row` two: has one `col-12` for the Title and text.
 * [**Our members**](): in Our member's section, I have included pictures from some of the members with quotes of their experience with the company; I also added a Linkedin icon to each member for users to access their profile. I have used Bootstrap's Grid system again to make the information responsive; I have integrated a `row` with two `col-12` with each having two`row` inside, `Row` one: has a `col-6` for the picture and one `col-6` for the text, `Row` two: has a `col-12` for the quote underneath. I have used Font Awesome to add the icons. 
-It also has an area with the logos of some of their clients; those logos have links to access to their webpages also. I have also used Bootstrap's Grid system to add responsiveness; it consists of a `container` with one `row` and six equally sized `col`.
+It has an area with the logos of some of its clients; those logos have links to their web pages. I have also used Bootstrap's Grid system to add responsiveness; it consists of a `container` with one `row` and six equally sized `col`.
 * [**Our Events**](): In our Events section, I have included pictures and information about each event; I have used Bootstrap' Grid System to make the content responsive, it consists of four `row`, each one has two `col`, one for the text and one for the picture. I have located the information in a different order on the second and last row, so the image and the text appear on the left side.
-* [**Get Linked**]():  On the GetLinked section, I have used Bootstrap's Gripd system to make the form responsive. It consists of six `row` that are justified to the centre of the page; each `row` has two equally sized `col` where the `input` forms and `label` have been placed. 
+* [**Get Linked**]():  On the GetLinked section, I have used Bootstrap's Grid system to make the form responsive. It consists of six `row` that are justified to the centre of the page; each `row` has two equally sized `col` where the `input` forms and `label` have been placed. 
 * [**Footer**](): On the Footer, I have also used two equally sized `col`, one for the copyright and the second for the icons with the links to social media. 
 
-**Fetures left to implement**
+**Features left to implement**
+* A gallery with images and videos of past events.
+* A live calendar with all the events and seminars with date and time.
 
 
 ## **Technologies Used**
@@ -113,24 +115,22 @@ It also has an area with the logos of some of their clients; those logos have li
 * HTML5
 * CSS3 
 
- **Frameworks, Libraries & Programes used**
+ **Frameworks, Libraries & Programmes used**
 
-* [GitPod](https://www.gitpod.io/) was used as the development enviroment to the website.
+* [GitPod](https://www.gitpod.io/) was used as the development environment to the website.
 * [GitHub](https://github.com/) was used to host the code that was created on Gitpod. 
-* [Bootstrap v 4.5.3](https://getbootstrap.com/)  was used o assist with the responsiveness of the website, Navbar, Scrollspy and Carousel. 
-* [Balsamiq](https://balsamiq.com/) was used to create the wireframes and disign of this webpage.
+* [Bootstrap v 4.5.3](https://getbootstrap.com/)  was used o assist with the website's responsiveness, Navbar, Scrollspy and Carousel. 
+* [Balsamiq](https://balsamiq.com/) was used to create the wireframes and design of this webpage.
 * [Font Awesome](https://fontawesome.com/) used to add icons to the webpage. 
-* [Google Fonts](https://fonts.google.com/) was used pull the desired fomt for the page.
+* [Google Fonts](https://fonts.google.com/) was used to pull the desired font for the page.
 * [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) was constantly used to fix, test and help with the styling of the page. Lighthouse was also used to test and improve the quality of the page. 
-* [Coolors](https://coolors.co/14080e-49475b-799496-acc196-e9eb9e)  was used to find the palette of colors to utilize on the project. 
+* [Coolors](https://coolors.co/14080e-49475b-799496-acc196-e9eb9e)  was used to find the palette of colours to utilize on the project. 
 * [Autoprefixer](https://autoprefixer.github.io/) added vendor prefixes to allow cross-browser compatibility support. 
 * [W3C CSS Validator service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to check the validity of CSS.
 * [W3C Markup Validator service](https://validator.w3.org/#validate_by_input) was used to check the validity of HTML.
-* [TinyPng.com](https://tinypng.com/) it was use to compress all the images of the project. 
+* [TinyPng.com](https://tinypng.com/) was used to compress all the images of the project. 
 * [Adobe.com](https://www.adobe.com/ie/photoshop/online/resize-image.html) Used for resizing all the images of the project. 
-* [Unicorn Reveler](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) it was used to help me locate the overflow on my page and fix any issues spotting the error on an easier way. 
-
-
+* [Unicorn Reveler](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) was used to help me locate the overflow on my page and fix any issues spotting the error more easily. 
 
 ## **Resources**
 ****
@@ -151,14 +151,14 @@ It also has an area with the logos of some of their clients; those logos have li
 _Once on the Homepage, the user has access to the section "About Us" In this section, we have integrated information to create trust in the brand; it has pictures of the Directors and information about "Who we are "What we do", and "How we do it."_
 ![UXtesting1](https://user-images.githubusercontent.com/70534058/112850657-1d8fd800-90a2-11eb-90ca-9b55db5b1234.PNG)
 
-* **_As a user Group one_**: I want to see what suppliers have subscribed so I can determine whether will be valuable for my company to join.
+* **_As a user Group one_**: I want to see what suppliers have subscribed to determine whether it will be valuable for my company to join.
 * **_As a User Group two_**:   I want to know what competitors have subscribed so I can plan what to offer that will make my product stand out for my target audience.  
 * **_As a User Group three_**:   I want to learn what operators have subscribed and whether my product will provide value to them.  
 
-_If the user scrolls down or uses the menu to go to Our Members, there is a section at the bottom where he can also see the Logos of some of the current suppliers; each logo has a link for the user to know more about each supplier._
+_If the user scrolls down or uses the menu to go to "Our Members", there is a section at the bottom where he can also see the Logos of some of the current suppliers; each logo has a link for the user to know more about each supplier._
 ![UXtesting2](https://user-images.githubusercontent.com/70534058/112852611-ffc37280-90a3-11eb-8e2a-f316ccf703a1.PNG)
 
-* **_As a user Group one_**:  I want to find out what type of events the company organize so I can know if that aligns with what I want to achieve from the membership. I want to find out the dates and location of their events to identify whether I will be able to attend and make the most of my subscription. 
+* **_As a user Group one_**:  I want to find out what type of events the company organize so I can know if that aligns with what I want to achieve from the membership. I want to find out the dates and location of their events to identify whether I will attend and make the most of my subscription. 
 * **_As a User Group two_**: I want to know the dates of their upcoming events to see if I can participate and find out if there are places available. 
 * **_As a User Group three_**:   I want to find out more about their events so I can know if they offer platforms where I can provide my training and seminars. 
 
@@ -177,17 +177,17 @@ _In Our member's section, it only shows s a few of the members of LinkedHospital
 _In the Footer of the page, the users can easily access their social media platforms by clicking on each of the icons; once they click, it will open a separate page, and LinkedHospitality will still be open._
 ![UXtesting5](https://user-images.githubusercontent.com/70534058/112856767-0ce26080-90a8-11eb-9d5e-6d95aa5799e9.PNG)
 
-* **_As a user Group one_**:I want to get in touch with the company to find out more about the membership and evaluate if is worth joining. 
+* **_As a user Group one_**:I want to get in touch with the company to find out more about the membership and evaluate if it is worth joining. 
 * **_As a User Group two_**: I want to get in touch with the company to find out more 
 * **_As a User Group three_**:    I want to get in touch with the company to find out more.  
 
-_In Get linked section, the user has the opportunity to submit their details on the form, so a member of LinkedHopsitality will get in touch with them to find out more about joining the membership depending on the type of member._
+_In the "Get linked" section, the user has the opportunity to submit their details on the form, so a member of LinkedHopsitality will get in touch with them to find out more about joining the membership depending on the type of member._
 ![UXtesting6](https://user-images.githubusercontent.com/70534058/112856776-0eac2400-90a8-11eb-81ae-bfde5778baa1.PNG)  
 
 ### **Testing on different Devises and Browsers**
 
-I have tested the page on the following using Chrome Developer Tool and have tested in all the devices sixes available there, I also checked on the following: 
-* Iphone X
+I have tested the page using Chrome Developer's Tool and have tested in all the devices sizes available there; I also checked on the following:
+* iPhone X
 * Xiaomi Note 9 
 * Samsung SM
 * Samsung Galaxy Note 8   
@@ -198,29 +198,68 @@ I have also used different browsers:
 * Microsoft Edge
 * Opera
 
-Checked that all links are working and open on a diferent page, tried to submit the form and made sure that the `required` attribute was working. 
+Checked that all links are working and open on a different page, tried to submit the form and made sure that the `required` attribute was working. 
 
 ### **Project barriers and solutions**
 
-* There were some issues with the grig system on the first section to make all the information response as the design; once I understood the grid system, I was able to figure out how to organize the `row` and `col` the correct way as explained on the features of the README. 
-* Navbar collapsing on mobile view is not bouncing back after clicking to an option.: I found a solution on Stackoverflow; after applying, the navbar went back after clicking, but the links didn't work. After speaking with one of the Tutors, I found out that it can be done with JS that I will learn in the next chapter of the course. This issue remains. 
+* There were some issues with the grig system on the first section to make all the information response as the design; once I understood the grid system, I was able to figure out how to organize the `row` and `col` the correct way as explained on the features of the README.
+* I added opacity to the `navbar-collapse`, but the colour wasn't changing; by using the development tools, I realized that the Navbar was taking over my rule because it was targetting the whole Navbar. After trying many things, I thought about changing the `height` to stay on that size; that made the Navbar not take over my rule and now has opacity when collapses.
+### **Unsolved issues** 
+* Navbar collapsing on mobile view is not bouncing back after clicking to an option.: I found a solution on Stackoverflow; after applying, the Navbar went back after clicking, but the links didn't work. After speaking with one of the Tutors, I found out that it can be done with JS that I will learn in the next chapter of the curse. This issue remains. 
 
 ### **Validation** 
 
-I have used W3C [CSS Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input) and this one was my first result:
+I have used W3C [CSS Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input), and this one was my first result:
 ![CSS validator](https://user-images.githubusercontent.com/70534058/112861485-bd526380-90ac-11eb-8106-9e3c4468419a.PNG)
 
-I have used [W3C Markup Validator Service](https://validator.w3.org/) to validate HTML, this was my first result:
+I have used [W3C Markup Validator Service](https://validator.w3.org/) to validate HTML, and this was my first result:
 ![First testing HTML](https://user-images.githubusercontent.com/70534058/112861785-073b4980-90ad-11eb-8f89-10caeda9daec.PNG)
-After fixing the issues highlighted I got the following result:
+After fixing the issues highlighted, I got the following result:
 ![2nd testing HTML](https://user-images.githubusercontent.com/70534058/112861801-0b676700-90ad-11eb-9129-4686871b4595.PNG) 
+
+### **Lighthouse** 
+I have used Lighthouse to test the quality of the webpage; the scores are pretty high. However, I tried to fix the pictures sizes issue but still a more significant problem on performance. 
+* Scores on Desktop:
+ 
+* Scores on Mobile:
 
 
 ## **Deployment** 
 ****
+**GitHub Pages**  
 
-* All code has been written in GitPod. 
+The project was deployed to GitHub Pages using the following steps:
 
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), find the "Settings" button on the menu.
+3. Alternatively, Click Here for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the drop-down called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+**Forking the GitHub Repository**  
+
+By forking the GitHub Repository, we make a copy of the original Repository on our GitHub account to view or make changes without affecting the original Repository by using the following steps:
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), just above the "Settings" button on the menu, locate the "Fork" button.
+3. You should now have a copy of the original Repository in your GitHub account.
+
+**Making a Local Clone**  
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the Repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+
+    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`   
+
+7. Press Enter. Your local clone will be created.   
+
+    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY> Cloning into `CI-Clone`> remote: Counting objects: 10, done.> remote: Compressing objects: 100% (8/8), done.> remove: Total 10 (delta 1), reused 10 (delta 1)> Unpacking objects: 100% (10/10), done`   
 
 
 ## **Credits** 
@@ -228,9 +267,9 @@ After fixing the issues highlighted I got the following result:
 
 ### **Media** 
 
-**Logo**
+** logo**
 
-* The logo for this website was created for Maria Mestre by Graphic Designer [Eva Mestre](https://www.linkedin.com/in/eva-mestre/).
+* The website's logo was created for Maria Mestre by Graphic Designer [Eva Mestre](https://www.linkedin.com/in/eva-mestre/).
 
 **Images**
 
@@ -239,7 +278,7 @@ After fixing the issues highlighted I got the following result:
 * Image for carousel 3 [Pixabay](https://pixabay.com/photos/glasses-toasting-cheers-alcohol-919071/)
 * CEO founder image on **Who we are** section [Unsplash](https://unsplash.com/photos/7uoMmzPd2JA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 * Events Director image on **What we do** section [Unsplash](https://unsplash.com/photos/SJvDxw0azqw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
-* Bussinees Development Director on **How we do it** section [Unsplash](https://unsplash.com/photos/JQ2D4I-2eyw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+* Business Development Director on **How we do it** section [Unsplash](https://unsplash.com/photos/JQ2D4I-2eyw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
 * Image member 1 [Pixabay](https://pixabay.com/photos/man-coffee-human-tee-person-drink-3803551/)
 * Image member 2 [Pixabay](https://pixabay.com/photos/woman-business-fashion-young-3060784/)
 * Image member 3 [Unsplash](https://unsplash.com/photos/pAtA8xe_iVM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
@@ -258,20 +297,20 @@ After fixing the issues highlighted I got the following result:
 
  ### **Content**
 
-All text content is self-written for educational porpuses only.
+All text content is self-written for educational purposes only.
 
 ### **Code**
-* Navbar, Scrollspy and Carousel where taken from Bootstrap documentation. 
+* Navbar, Scrollspy and Carousel were taken from Bootstrap documentation. 
 
 
 ## **Acknowledgments**
 ****
 
-I would like to thank:
+I want to thank:
 
 * My sister for creating the logos for me.
 
-* All the tutors for their support heling me understand the grid system and Anna Greaves for her video with explanation.
+* All the tutors for their support helping me understand the grid system and Anna Greaves for her video with the explanation.
 
 * To Jim Lynx for his video about MS1 preparation, it helped me a lot.
 
