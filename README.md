@@ -78,7 +78,7 @@ To achieve strategic goals, I have decided to include the following features:
 
 ### **3. Structure**
 
-The structure idea is to reduce complexity and cognitive overload by creating a single-page website with a linear path containing all the information and features required by the ideal users.  The navigation bar is located on the right and includes the links for all four sections of the page. The logo is on the left and brings the user back to the bottom of the page; this is an Industry standard that maintains familiarity and makes it easy to navigate when accessed for the first time. All the elements are discoverable and have content hinting by partially revealing parts of the following area just above the fold to encourage them to scroll down. 
+The structure idea is to reduce complexity and cognitive overload by creating a single-page website with a linear path containing all the ideal users' information and features. The navigation bar is located on the right and includes the links for all four sections of the page. The logo is on the left and brings the user back to the bottom of the page; this is an Industry standard that maintains familiarity and makes it easy to navigate when accessed for the first time. All the elements are discoverable and have content hinting by partially revealing parts of the following area just above the fold to encourage them to scroll down. 
 I  have created the user flow strategically to encourage the user to keep scrolling down and unfolding information that will make them confident about the company and stimulate them to submit their details in the contact form. 
 
 
@@ -135,11 +135,11 @@ It has an area with the logos of some of its clients; those logos have links to 
 ## **Resources**
 ****
 
-* CodeInstitude 
-* Bootstrap Documentation
-* W3Schools
-* Youtube 
-* Udemy Software development course
+* CodeInstitute. 
+* Bootstrap Documentation.
+* W3Schools.
+* Youtube.
+* Udemy Software development course.
 
 
 ## **Testing**
@@ -209,20 +209,19 @@ Checked that all links are working and open on a different page, tried to submit
 
 ### **Validation** 
 
-I have used W3C [CSS Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input), and this one was my first result:
+I have used W3C [CSS Validator Service](https://jigsaw.w3.org/css-validator/#validate_by_input):
 ![CSS validator](https://user-images.githubusercontent.com/70534058/112861485-bd526380-90ac-11eb-8106-9e3c4468419a.PNG)
 
-I have used [W3C Markup Validator Service](https://validator.w3.org/) to validate HTML, and this was my first result:
-![First testing HTML](https://user-images.githubusercontent.com/70534058/112861785-073b4980-90ad-11eb-8f89-10caeda9daec.PNG)
-After fixing the issues highlighted, I got the following result:
+I have used [W3C Markup Validator Service](https://validator.w3.org/) to validate HTML:
 ![2nd testing HTML](https://user-images.githubusercontent.com/70534058/112861801-0b676700-90ad-11eb-9129-4686871b4595.PNG) 
 
 ### **Lighthouse** 
 I have used Lighthouse to test the quality of the webpage; the scores are pretty high. However, I tried to fix the pictures sizes issue but still a more significant problem on performance. 
 * Scores on Desktop:
+![Lighthouse test for Desktop](https://user-images.githubusercontent.com/70534058/112892874-cbff4180-90d1-11eb-881a-9d24c2d3bd1a.PNG)
  
 * Scores on Mobile:
-
+![Lighthouse test for Mobile](https://user-images.githubusercontent.com/70534058/112892878-ce619b80-90d1-11eb-9630-3f7dcea235d8.PNG)
 
 ## **Deployment** 
 ****

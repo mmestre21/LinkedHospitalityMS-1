@@ -186,13 +186,20 @@ img.aboutuspic {
 	box-shadow: 5px 5px 5px grey;
 }
 
+@media only screen and (width: 2560px) {
+	img.aboutuspic {
+		position: relative;
+		left: 20%;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	img.aboutuspic {
 		width: 65%;
 		height: auto;
 		position: relative;
 		top: 20%;
-		left: 20%;
+		left: 10%;
 	}
 }
 
@@ -217,9 +224,10 @@ img.aboutuspic {
 
 @media only screen and (width: 2560px) {
 	.quotes {
-		font-size: 15px;
+		font-size: 17px;
 		position: relative;
 		top: 15%;
+		left: 10%;
 	}
 }
 
