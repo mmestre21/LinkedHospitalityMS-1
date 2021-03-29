@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
 
 * {
@@ -12,7 +19,7 @@ body {
     padding-top: 60px;
     height: auto;
     background-color: #77cbb9;
-    color: #4e4e57;
+    color: #403F40;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 7%;
@@ -20,7 +27,7 @@ body {
 #ourmembers {
     padding-top: 60px;
     height: auto;
-    color: #6d6568;
+    color: #403F40;
     background-color: #f5f5f5;
     padding-left: 1%;
     padding-right: 1%;
@@ -38,7 +45,7 @@ body {
 #getlinked {
     padding-top: 60px;
     height: auto;
-    color: #6d6568;
+    color: #403F40;
     background-color: #f5f5f5;
     padding-left: 1%;
     padding-right: 1%;
@@ -177,14 +184,15 @@ img.AboutUspic {
     width: 100%;
     height: auto;
     border-radius: 50% 50% 50% 50%;
-    box-shadow: 5px 5px 5px grey;
+    -webkit-box-shadow: 5px 5px 5px grey;
+            box-shadow: 5px 5px 5px grey;
 
 }
 
 @media only screen and (max-width: 768px)
 {
     img.AboutUspic {
-    width: 70%;
+    width: 65%;
     height: auto;
     position: relative;
     top: 20%;
@@ -194,8 +202,8 @@ img.AboutUspic {
 @media only screen and (max-width: 600px)
  {
     img.AboutUspic {
-    width: 80%;
-    margin-top: 25px;
+    width: 100%;
+    margin-top: 27px;
     position: relative;
     top: 0%;
     }
@@ -229,7 +237,6 @@ img.AboutUspic {
 {
 .quotes {
     font-size: x-small;
-    margin-left: 0;
     position: relative;
     top: 10%
 }
@@ -323,11 +330,21 @@ img.AboutUspic {
     width: 70%;
     height: auto;
     border-radius: 5% 5% 5% 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .Memberspic {
+    width: 65%;
+    height: auto;
+    
+}
 }
 .icon3 {
     color: #f29559;
@@ -355,6 +372,12 @@ img.AboutUspic {
     font-size: 14px;
     }
 }
+@media only screen and (max-width: 600px)
+{
+    .quotes2 {
+    font-size: 12px;
+    }
+}
 
 .quotes201 {
     font-size: 15px;
@@ -369,6 +392,12 @@ img.AboutUspic {
 {
     .quotes201 {
     font-size: 14px;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    .quotes201 {
+    font-size: 12px;
     }
 }
 
@@ -393,7 +422,8 @@ img.logosLH {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: opacity(60%);
+    -webkit-filter: opacity(60%);
+            filter: opacity(60%);
 }
 @media only screen and (max-width: 600px) 
 {
@@ -405,9 +435,8 @@ img.logosLH {
 
 a:hover img.logosLH {
      border: solid 1px #CCC;
-    -moz-box-shadow: 1px 1px 5px #999;
     -webkit-box-shadow: 1px 1px 5px #999;
-     box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
 
 }
 .logoscontainer {
@@ -420,7 +449,8 @@ a:hover img.logosLH {
     width: 100%;
     height: auto;
     border-radius: 3% 3% 3% 3%;
-    box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(231, 227, 227, 0.692), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .myrows {
     margin-top: 55px;
@@ -452,7 +482,8 @@ a:hover img.logosLH {
     border-radius: 5px;
     background-color: #77cbb9;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 @media only screen and (max-width: 768px)
@@ -469,7 +500,8 @@ a:hover img.logosLH {
     display: block;
     border: 1px solid #ccc;
     border-radius: 6px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 #contactp {
@@ -482,6 +514,12 @@ a:hover img.logosLH {
 {
     #contactp {
     font-size: 14px;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    #contactp {
+    font-size: 12px;
     }
 }
 
@@ -509,3 +547,18 @@ a:hover img.logosLH {
     text-align: center;
 }
 
+label {
+    font-size: 15px;
+}
+@media only screen and (max-width: 768px)
+{
+    label {
+    font-size: 14px;
+    }
+}
+@media only screen and (max-width: 600px)
+{
+    label {
+    font-size: 12px;
+    }
+}
