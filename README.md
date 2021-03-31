@@ -266,7 +266,7 @@ By forking the GitHub Repository, we make a copy of the original Repository on o
 
 ### **Media** 
 
-** logo**
+**Logo**
 
 * The website's logo was created for Maria Mestre by Graphic Designer [Eva Mestre](https://www.linkedin.com/in/eva-mestre/).
 
@@ -313,7 +313,9 @@ I want to thank:
 
 * To Jim Lynx for his video about MS1 preparation, it helped me a lot.
 
-* last but not least, to my Mentor for his patience and guidance. 
+* To Mark in the student care team for being supportive and understandable. 
+
+* To my Mentor for his patience and guidance. 
 
 
 **Disclaimer**

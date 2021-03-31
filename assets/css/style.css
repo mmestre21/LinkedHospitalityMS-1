@@ -189,7 +189,7 @@ img.aboutuspic {
 @media only screen and (width: 2560px) {
 	img.aboutuspic {
 		position: relative;
-		left: 20%;
+		left: 8%;
 	}
 }
 
@@ -199,7 +199,7 @@ img.aboutuspic {
 		height: auto;
 		position: relative;
 		top: 20%;
-		left: 10%;
+		left: 20%;
 	}
 }
 
@@ -227,7 +227,7 @@ img.aboutuspic {
 		font-size: 17px;
 		position: relative;
 		top: 15%;
-		left: 10%;
+		left: 8%;
 	}
 }
 
