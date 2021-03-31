@@ -216,7 +216,7 @@ I have used [W3C Markup Validator Service](https://validator.w3.org/) to validat
 ![2nd testing HTML](https://user-images.githubusercontent.com/70534058/112861801-0b676700-90ad-11eb-9129-4686871b4595.PNG) 
 
 ### **Lighthouse** 
-I have used Lighthouse to test the quality of the webpage; the scores are pretty high. However, I tried to fix the pictures sizes issue but still a more significant problem on performance. 
+I have used Lighthouse to test the quality of the webpage; the scores are pretty high. However, I tried to fix the pictures sizes issue but still a more significant problem on mobile performance. 
 * Scores on Desktop:
 ![Lighthouse test for Desktop](https://user-images.githubusercontent.com/70534058/112892874-cbff4180-90d1-11eb-881a-9d24c2d3bd1a.PNG)
  
