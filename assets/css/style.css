@@ -370,43 +370,27 @@ img.aboutuspic {
 	color: #561F37;
 }
 
+.quotestext {
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .quotes2 {
-	font-size: 15px;
-	font-style: italic;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-	.quotes2 {
-		font-size: 14px;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	.quotes2 {
-		font-size: 12px;
-	}
-}
-
-.quotes201 {
-	font-size: 15px;
-	font-style: italic;
-	margin-top: 20px;
-	margin-bottom: 20px;
 	text-align: right;
 	display: block;
 	margin-left: auto
 }
 
 @media only screen and (max-width: 768px) {
-	.quotes201 {
+	.quotes2 .quotestext {
 		font-size: 14px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	.quotes201 {
+	.quotes2 .quotestext {
 		font-size: 12px;
 	}
 }

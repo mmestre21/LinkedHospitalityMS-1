@@ -129,8 +129,9 @@ It has an area with the logos of some of its clients; those logos have links to 
 * [W3C CSS Validator service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to check the validity of CSS.
 * [W3C Markup Validator service](https://validator.w3.org/#validate_by_input) was used to check the validity of HTML.
 * [TinyPng.com](https://tinypng.com/) was used to compress all the images of the project. 
-* [Adobe.com](https://www.adobe.com/ie/photoshop/online/resize-image.html) Used for resizing all the images of the project. 
+* [Adobe.com](https://www.adobe.com/ie/photoshop/online/resize-image.html) used for resizing all the images of the project. 
 * [Unicorn Reveler](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln) was used to help me locate the overflow on my page and fix any issues spotting the error more easily. 
+* [Freeformatter.com](https://www.freeformatter.com/) used to format CSS and HTML.
 
 ## **Resources**
 ****
