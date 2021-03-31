@@ -93,14 +93,14 @@ I  have created the user flow strategically to encourage the user to keep scroll
 ***
 *LinkedHospitality*  is a fully responsive website on all devices. It contains a Homepage with a carousel with related pictures, a header with links to the sections of the page, four sections: About us, Our members, Our Events, and Get Linked and a footer with links to social media platforms. 
 
-* [**Home Page**](): I have used Bootstrap Carousel to mate the page look more eye-catching with a series of pictures related to the Hospitality industry.
-* [**Header**](): The Header is a Navbar from Bootstrap containing a Logo and links to the rest of the sections. The get Linked button is particularly highlighted to encourage the user to press and submit their contact details. 
-* [**About Us**](): in the About us section, I have added pictures of the directors of the company and below them information about "who we are", "What we do" and "How we do it" I have incorporated an icon from Font Awesome to each Title, so it enhances the meaning and follows the initial design. I have used Bootstrap's grid system to make that section responsive. I have incorporated three `col` that have two `row` inside, `row` one: with one `col-4` for pictures and one `col-8` for Quotes, `row` two: has one `col-12` for the Title and text.
-* [**Our members**](): in Our member's section, I have included pictures from some of the members with quotes of their experience with the company; I also added a Linkedin icon to each member for users to access their profile. I have used Bootstrap's Grid system again to make the information responsive; I have integrated a `row` with two `col-12` with each having two`row` inside, `Row` one: has a `col-6` for the picture and one `col-6` for the text, `Row` two: has a `col-12` for the quote underneath. I have used Font Awesome to add the icons. 
+* [**Home Page**](https://mmestre21.github.io/LinkedHospitalityMS-1/): I have used Bootstrap Carousel to mate the page look more eye-catching with a series of pictures related to the Hospitality industry.
+* [**Header**](https://mmestre21.github.io/LinkedHospitalityMS-1/): The Header is a Navbar from Bootstrap containing a Logo and links to the rest of the sections. The get Linked button is particularly highlighted to encourage the user to press and submit their contact details. 
+* [**About Us**](https://mmestre21.github.io/LinkedHospitalityMS-1/#aboutus): in the About us section, I have added pictures of the directors of the company and below them information about "who we are", "What we do" and "How we do it" I have incorporated an icon from Font Awesome to each Title, so it enhances the meaning and follows the initial design. I have used Bootstrap's grid system to make that section responsive. I have incorporated three `col` that have two `row` inside, `row` one: with one `col-4` for pictures and one `col-8` for Quotes, `row` two: has one `col-12` for the Title and text.
+* [**Our members**](https://mmestre21.github.io/LinkedHospitalityMS-1/#ourmembers): in Our member's section, I have included pictures from some of the members with quotes of their experience with the company; I also added a Linkedin icon to each member for users to access their profile. I have used Bootstrap's Grid system again to make the information responsive; I have integrated a `row` with two `col-12` with each having two`row` inside, `Row` one: has a `col-6` for the picture and one `col-6` for the text, `Row` two: has a `col-12` for the quote underneath. I have used Font Awesome to add the icons. 
 It has an area with the logos of some of its clients; those logos have links to their web pages. I have also used Bootstrap's Grid system to add responsiveness; it consists of a `container` with one `row` and six equally sized `col`.
-* [**Our Events**](): In our Events section, I have included pictures and information about each event; I have used Bootstrap' Grid System to make the content responsive, it consists of four `row`, each one has two `col`, one for the text and one for the picture. I have located the information in a different order on the second and last row, so the image and the text appear on the left side.
-* [**Get Linked**]():  On the GetLinked section, I have used Bootstrap's Grid system to make the form responsive. It consists of six `row` that are justified to the centre of the page; each `row` has two equally sized `col` where the `input` forms and `label` have been placed. 
-* [**Footer**](): On the Footer, I have also used two equally sized `col`, one for the copyright and the second for the icons with the links to social media. 
+* [**Our Events**](https://mmestre21.github.io/LinkedHospitalityMS-1/#ourevents): In our Events section, I have included pictures and information about each event; I have used Bootstrap' Grid System to make the content responsive, it consists of four `row`, each one has two `col`, one for the text and one for the picture. I have located the information in a different order on the second and last row, so the image and the text appear on the left side.
+* [**Get Linked**](https://mmestre21.github.io/LinkedHospitalityMS-1/#getlinked):  On the GetLinked section, I have used Bootstrap's Grid system to make the form responsive. It consists of six `row` that are justified to the centre of the page; each `row` has two equally sized `col` where the `input` forms and `label` have been placed. 
+* [**Footer**](https://mmestre21.github.io/LinkedHospitalityMS-1/#getlinked): On the Footer, I have also used two equally sized `col`, one for the copyright and the second for the icons with the links to social media. 
 
 **Features left to implement**
 * A gallery with images and videos of past events.
@@ -225,41 +225,14 @@ I have used Lighthouse to test the quality of the webpage; the scores are pretty
 
 ## **Deployment** 
 ****
-**GitHub Pages**  
+This website is hosted using GitHub pages, and deployed using the following steps:
 
-The project was deployed to GitHub Pages using the following steps:
-
-1. Log in to GitHub and locate the GitHub Repository
+1. Log in to GitHub and locate the GitHub Repository: mmestre21/LinkedHospitalityMS-1.
 2. At the top of the Repository (not top of page), find the "Settings" button on the menu.
-3. Alternatively, Click Here for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the drop-down called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-
-**Forking the GitHub Repository**  
-
-By forking the GitHub Repository, we make a copy of the original Repository on our GitHub account to view or make changes without affecting the original Repository by using the following steps:
-
-1. Log in to GitHub and locate the GitHub Repository
-2. At the top of the Repository (not top of page), just above the "Settings" button on the menu, locate the "Fork" button.
-3. You should now have a copy of the original Repository in your GitHub account.
-
-**Making a Local Clone**  
-
-1. Log in to GitHub and locate the GitHub Repository
-2. Under the repository name, click "Clone or download".
-3. To clone the Repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type git clone, and then paste the URL you copied in Step 3.
-
-    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`   
-
-7. Press Enter. Your local clone will be created.   
-
-    `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY> Cloning into `CI-Clone`> remote: Counting objects: 10, done.> remote: Compressing objects: 100% (8/8), done.> remove: Total 10 (delta 1), reused 10 (delta 1)> Unpacking objects: 100% (10/10), done`   
-
+6. Scroll back down to locate the now published site link in the "GitHub Pages" section: https://mmestre21.github.io/LinkedHospitalityMS-1/
 
 ## **Credits** 
 ****
@@ -268,7 +241,7 @@ By forking the GitHub Repository, we make a copy of the original Repository on o
 
 **Logo**
 
-* The website's logo was created for Maria Mestre by Graphic Designer [Eva Mestre](https://www.linkedin.com/in/eva-mestre/).
+* The website's logo was created by Graphic Designer [Eva Mestre](https://www.linkedin.com/in/eva-mestre/) for Maria Mestre's MS1 Project.
 
 **Images**
 
